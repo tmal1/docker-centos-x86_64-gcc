@@ -1,0 +1,1 @@
+# docker-centos_i386-gcc
