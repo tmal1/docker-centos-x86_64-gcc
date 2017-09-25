@@ -8,7 +8,7 @@ ENV JAVA_VERSION_MAJOR=java-1.8.0-openjdk \
     PATH=${PATH}:/usr/bin/java
 
 LABEL author="Tomasz Malinowski <t.malinowski@oberthur.com>"
-LABEL version="docker-centos_i386-gcc"
+LABEL version="docker-centos-x86_64-gcc"
 
 RUN yum -y update
 
