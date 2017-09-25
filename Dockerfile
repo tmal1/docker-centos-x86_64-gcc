@@ -14,7 +14,7 @@ RUN yum -y update
 
 RUN yum -y install yum-plugin-ovl epel-release
 
-RUN yum -y install tar unzip wget gcc vim git jq pcre-devel openssl-devel mono-devel ${JAVA_VERSION_MAJOR}-${JAVA_VERSION_MINOR}-${JAVA_VERSION_BUILD}.x86_64 \
+RUN yum -y install tar unzip wget gcc make vim git jq pcre-devel openssl-devel mono-devel ${JAVA_VERSION_MAJOR}-${JAVA_VERSION_MINOR}-${JAVA_VERSION_BUILD}.x86_64 \
 
 # clean up
     && rm -rf /var/cache/yum/* \
